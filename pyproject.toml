@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "caradvise"
+version = "1.0.0"
+description = "Projects for CarADvise"
+authors = ["srini"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.27.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
